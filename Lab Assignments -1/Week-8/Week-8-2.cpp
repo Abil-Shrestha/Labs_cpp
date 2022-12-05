@@ -1,22 +1,22 @@
 /*
 Abil Shrestha
 */
-#include <iostream>
-using namespace std;
-int Power(int x, int y) {  // Power function 
-	if (y == 0) { return 1; }  // any number's first power is equal to 1
-	else return (x * Power(x, y - 1)); // x*x*x*...*x*1  
-}
-int main(){
-	int x, y;
-	cout << "Input X = "; cin >> x;
-	cout << "Input Y = "; cin >> y;
-	cout << "Power of " << x << "^" << y <<" = "<< Power(x, y) << endl;
-	system("pause");
-	return 0;
-}
+// #include <iostream>
+// using namespace std;
+// int Power(int x, int y) {  // Power function 
+// 	if (y == 0) { return 1; }  // any number's first power is equal to 1
+// 	else return (x * Power(x, y - 1)); // x*x*x*...*x*1  
+// }
+// int main(){
+// 	int x, y;
+// 	cout << "Input X = "; cin >> x;
+// 	cout << "Input Y = "; cin >> y;
+// 	cout << "Power of " << x << "^" << y <<" = "<< Power(x, y) << endl;
+// 	system("pause");
+// 	return 0;
+// }
 
-/*
+
 #include <iostream>
 using namespace std;
 int Sum(int x) {  // Sum function 
@@ -30,7 +30,7 @@ int main() {
 	system("pause");
 	return 0;
 }
-*/
+
 /*
 #include <iostream>
 using namespace std;
