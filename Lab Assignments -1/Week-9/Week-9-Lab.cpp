@@ -3,21 +3,21 @@ Week-9 labs
 C++
 */
 
-#include <iostream>
-using namespace std;
-int main() {
-	int arr[88],n;
-	cout << "Enter number of elements of Array = ";
-	cin >> n;
-	cout << "Enter Array elements" << endl;
-	for (int i = 0; i < n; i++) {  //This loop helps to input elements of Array
-		cin >> arr[i];}
-	cout << "Array" << endl;
-	for (int i = 0; i < n; i++) {  // Output
-		cout << "arr[" << i << "] = " << arr[i] << endl;}
-	system("pause");
-	return 0;
-}
+// #include <iostream>
+// using namespace std;
+// int main() {
+// 	int arr[88],n;
+// 	cout << "Enter number of elements of Array = ";
+// 	cin >> n;
+// 	cout << "Enter Array elements" << endl;
+// 	for (int i = 0; i < n; i++) {  //This loop helps to input elements of Array
+// 		cin >> arr[i];}
+// 	cout << "Array" << endl;
+// 	for (int i = 0; i < n; i++) {  // Output
+// 		cout << "arr[" << i << "] = " << arr[i] << endl;}
+// 	system("pause");
+// 	return 0;
+// }
 
 /*
 #include <iostream>
@@ -109,7 +109,6 @@ int main() {
 	return 0;
 }
 */
-/*
 #include <iostream>
 using namespace std;
 int main() {
@@ -133,5 +132,4 @@ int main() {
 	system("pause");
 	return 0;
 }
-*/
 
